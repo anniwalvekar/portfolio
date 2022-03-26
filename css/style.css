@@ -179,7 +179,7 @@ body {
 /* FOOTER SECTION*/
 /*******************************************/
 footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -302,7 +302,7 @@ a.icon-l:hover {
 }
 .title-02 {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 1rem;
   color: #3f396d;
   letter-spacing: 2px;
@@ -311,7 +311,7 @@ a.icon-l:hover {
 }
 .title-01 {
   color: #6f34fe;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
@@ -377,12 +377,45 @@ a.icon-l:hover {
   color: #6f34fe;
 }
 /********************************/
-
+/*skill section
 /*************************************/
 .section-skills {
   background-color: #f0f4ff;
-  padding: 10rem 5rem 9.6rem 14rem;
+  padding: 9rem 5rem 1rem 14rem;
 }
+.skill-block {
+  display: flex;
+  /* margin-top: 7rem; */
+}
+.skills-title {
+  margin-left: 4rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+.skills-title-01 {
+  color: #6f34fe;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.skills-title-02 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #3f396d;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+}
+.skills-text-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #7d7789;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -394,4 +427,111 @@ a.icon-l:hover {
 }
 .grid--center-v {
   align-items: center;
+}
+/******************************/
+/*       Section Portfolio*/
+/************************************/
+.section-portfolio {
+  background-color: #6f34fe;
+  height: 550px;
+  padding: 8rem 5rem 9.6rem 14rem;
+}
+.portfolio-title {
+}
+.portfolio-title-1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #f2f2ff;
+}
+.portfolio-title-2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  color: #f2f2ff;
+}
+.my-btn-container {
+  border: none;
+  border: none;
+  color: #fff;
+  background: transparent;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 25px;
+}
+.active {
+  border: none;
+  background: transparent;
+  color: #f2f2ff;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 25px;
+}
+.active-btn {
+  color: #fca61f;
+  border-bottom: 2px solid #fca61f;
+}
+.active:hover {
+  color: #fca61f;
+}
+.portfolio-body {
+  margin-top: -270px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
+}
+/**************************************/
+/* SEction Testimonial*/
+/*****************************************/
+.testmonials {
+  padding: 8rem 5rem 9.6rem 14rem;
+}
+.step-img-box {
+}
+.testimonial-title {
+  margin-left: 4rem;
+  text-align: left;
+}
+.testimonial-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #f0f4ff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  background-color: #fca61f;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.testimonial-btn-left:hover {
+  background-color: #6f34fe;
+  transform: translateX(-15px);
+}
+.testimonial-btn-right:hover {
+  background-color: #6f34fe;
+  transform: translateX(15px);
+}
+.author-name {
+  color: #3f396d;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 6px;
+  letter-spacing: 0.3px;
+}
+.author-post {
+  color: #7d7789;
+  font-size: 16px;
+  margin-bottom: 2rem;
 }
