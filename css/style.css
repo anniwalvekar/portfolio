@@ -188,6 +188,7 @@ footer {
   width: 100vw;
   padding: 2rem;
   color: #7d7789;
+  position: relative;
 }
 .footer-content {
   display: flex;
@@ -278,6 +279,13 @@ a.icon-l:hover {
   padding: 20px 0;
   text-align: center;
 }
+/* .footer-container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 26px;
+  margin-right: auto;
+  margin-left: auto;
+} */
 .footer-bottom p {
   font-size: 1rem;
   text-transform: capitalize;
@@ -389,7 +397,7 @@ a.icon-l:hover {
   /* margin-top: 7rem; */
 }
 .skills-title {
-  margin-left: 4rem;
+  margin-left: 6rem;
   text-align: left;
   margin-top: 2rem;
 }
@@ -419,12 +427,11 @@ a.icon-l:hover {
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  grid-gap: 20px;
   margin-bottom: 9.6rem;
 }
 .grid--2-cols {
-  grid-template-rows: repeat(1fr, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .grid--center-v {
   align-items: center;
@@ -505,12 +512,14 @@ a.icon-l:hover {
 /************************************/
 .portfolio-body {
   margin-top: -270px;
+  /* padding: 5rem 5rem 8rem 8rem; */
 }
 .portfolio-body-cols {
-  overflow: hidden;
+  position: relative;
+  padding-right: 10rem;
 }
 
-.grid {
+.portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
